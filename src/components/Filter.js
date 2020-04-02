@@ -14,7 +14,7 @@ export default function Filter(props) {
       props.handleInputChange(e.target.value);
     }
   };
-
+// Reorganizes page according to user input
   const onSortSelect = e => {
     setSortType(e.target.value);
 
