@@ -4,7 +4,7 @@ import person from '../person.png';
 export default function User(props) {
   const { name, role, department, email, phone } = props.user;
   return (
-      // React Fragments lets components retun multiple elements
+      // React Fragments lets components return multiple elements
     <React.Fragment>
       <td>
         <div className='card border-0'>

@@ -5,7 +5,7 @@ import User from './User';
 export default function TableBody({ users }) {
   return (
 
-    // React Fragments lets components retun multiple elements
+    // React Fragments lets components return multiple elements
     <React.Fragment>
       <tbody>
         {users.map(user => {
